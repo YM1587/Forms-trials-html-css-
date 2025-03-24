@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Customer Information Form</title>
+        <link rel="stylesheet" href="styleform1.css">
+    </head>
+    <body>
+    /* Post  is used for sensitive data while get can be used with normal data */    
+        <form>
+            <input type="text" name="CustomerID" placeholder="CustomerID">
+            <input type="text" name="First Name" placeholder="First Name">
+            <input type="text" name="Other Names" placeholder="Other Names">
+            <input type="text" name="Date Of Birth" placeholder="DOB">
+            <input type="text" name="Email" placeholder="Email">
+            <input type="text" name="Phone Number" placeholder="Phone Number">
+            <input type="text" name="Address" placeholder="Address">
+            <input type="text" name="AgentID" placeholder="AgentID">
+            Male:<input type="radio" name="Gender" value="Male">
+            Female:<input type="radio" name="Gender" value="Female">
+            Other:<input type="radio" name="Gender" value="Other">
+            <select name="Product Name">
+                <option value="Product 1">Home</option>
+                <option value="Product 2">Auto</option>
+                <option value="Product 3">Health</option>
+                <option value="Product 4">Investment</option>
+            <textarea name="Addtional Information" placeholder="Write any other relevant Information!"></textarea>
+            </select>
+            <button type="submit" name="Submit">Submit</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+form{
+    width: 300px;
+
+}
+input{
+    width: 100%;
+
+}
+textarea{
+    resize: vertical;
+    max-height: 100px;
+
+}
+input:focus,textarea:focus{
+    box-decoration-break: 0 0 4px rgba(255,0,0,0.5);
+    outline: none;
+    border:1 px solid #ddd;
+}
+::placeholder{
+    color: black;
+    opacity: 1;
+}

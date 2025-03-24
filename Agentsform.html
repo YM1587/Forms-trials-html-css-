@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styleAgentsform.css">
+        <title>Agents details form</title>
+
+    </head>
+    <body>
+        <div class="container">
+            <h2>Customer Information Form</h2>
+            <form action="/submit_form" method="post">
+                <label for="first_name">First Name:</label><br>
+                <input type="text" id="first_name" name="first_name" required><br>
+    
+                <label for="other_names">Other Names:</label><br>
+                <input type="text" id="other_names" name="other_names" required><br>
+    
+                <label for="mobile_number">Mobile Number:</label><br>
+                <input type="tel" id="mobile_number" name="mobile_number" required><br>
+    
+                <label for="id_passport_number">ID/Passport Number:</label><br>
+                <input type="text" id="id_passport_number" name="id_passport_number" required><br>
+    
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+
+</html>
